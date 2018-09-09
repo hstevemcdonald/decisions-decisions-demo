@@ -2531,3 +2531,20 @@
 [Sun, 09 Sep 2018 17:37:52 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /_utils/dashboard.assets/fonts/fontawesome-webfont.woff 304
 [Sun, 09 Sep 2018 17:37:52 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /choices/_all_docs?startkey=%22%22&endkey=%22%E9%A6%99%22&limit=30&_=1536514672176 200
 [Sun, 09 Sep 2018 17:37:52 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /_utils/dashboard.assets/img/pouchdb-favicon.png 200
+[Sun, 09 Sep 2018 17:39:17 GMT] [info] [<0.000.0>] pouchdb-server has started on http://127.0.0.1:4000/
+[Sun, 09 Sep 2018 17:39:17 GMT] [info] [<0.000.0>] database files will be saved to choices
+[Sun, 09 Sep 2018 17:39:17 GMT] [info] [<0.000.0>] navigate to http://127.0.0.1:4000/_utils for the Fauxton UI.
+[Sun, 09 Sep 2018 17:39:35 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /choices/ 200
+[Sun, 09 Sep 2018 17:39:35 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /choices/_all_docs?include_docs=true 200
+[Sun, 09 Sep 2018 17:40:50 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /choices/ 200
+[Sun, 09 Sep 2018 17:40:51 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /choices/_all_docs?include_docs=true 304
+[Sun, 09 Sep 2018 17:40:52 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /choices/ 304
+[Sun, 09 Sep 2018 17:40:52 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /choices/_all_docs?include_docs=true 304
+[Sun, 09 Sep 2018 17:41:01 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /choices/ 304
+[Sun, 09 Sep 2018 17:41:01 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /choices/_all_docs?include_docs=true 304
+[Sun, 09 Sep 2018 17:41:04 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /choices/ 304
+[Sun, 09 Sep 2018 17:41:04 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /choices/_all_docs?include_docs=true 304
+[Sun, 09 Sep 2018 17:41:10 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /choices/ 304
+[Sun, 09 Sep 2018 17:41:10 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /choices/_all_docs?include_docs=true 304
+[Sun, 09 Sep 2018 17:45:49 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /choices/ 304
+[Sun, 09 Sep 2018 17:45:49 GMT] [info] [<0.000.0>] 127.0.0.1 - - GET /choices/_all_docs?include_docs=true 304
