@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import log from "ololog";
 import PouchDB from "pouchdb";
 
 import Button from "./components/button";
@@ -19,14 +18,17 @@ class App extends Component {
   componentDidMount() {
     let _this = this;
     try {
-      const db = new PouchDB("http://localhost:4000/choices");
+      const db = new PouchDB(
+        "http://" + window.location.hostname + ":4000/db/choices"
+      );
       db.allDocs({ include_docs: true }).then(docs => {
+        console.log(docs);
         this.setState(() => ({
           choices: docs.rows.map(row => row.doc.choice)
         }));
       });
     } catch (e) {
-      log.bright.red(e);
+      console.log(e);
       process.exit(0);
     }
   }
@@ -34,7 +36,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        {this.state.choice && (
+        {this.state.choice > 0 && (
           <div className="App">
             <Choice choice={this.state.choices[this.state.choice]} />
             <br />

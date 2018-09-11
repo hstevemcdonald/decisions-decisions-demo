@@ -1,5 +1,5 @@
 var PouchDB = require("pouchdb");
-var db = new PouchDB("http://localhost:4000/choices");
+var db = new PouchDB("http://localhost:4000/db/choices");
 const read = require("read-file");
 const log = require("ololog");
 const uuid = require("uuid");

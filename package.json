@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "ansi-styles": "^3.2.1",
+    "cors": "^2.8.4",
     "fs": "^0.0.1-security",
     "ololog": "^1.1.112",
     "pouchdb": "^7.0.0",
@@ -16,11 +17,11 @@
     "uuid": "^3.3.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "development": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "seed": "node seed/seed.js",
-    "server": "node_modules/.bin/pouchdb-server --dir choices --port 4000"
+    "start": "node server.js"
   }
 }
